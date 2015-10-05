@@ -42,7 +42,6 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#about">About</a></li>
                             <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -70,7 +69,8 @@
                 
                 <h2 id="algorithms">Algorithms</h2>
                 <br />
-                <p>Currently, I am working on implementing a library of assorted algorithms in Go. The purpose of this project is to understand the algorithms better through implementing, while learning Go in the process. I would also analyze these algorithms for complexity, actual running time, and memory usage.</p>
+                <p>Currently, I am working on implementing a library of assorted algorithms in Go. The purpose of this project is to understand the algorithms better through implementing, while learning Go in the process. I would also analyze these algorithms for complexity, actual running time, and memory usage.
+                  The plan for this project is to begin with classic comparison model sorting, then move on to some non-comparison based sorting algorithms (to beat the nlog(n) lower bound). After that, I will look into string manipulation algorithms, such as Longest Common Subsequence, Longest Increasing Subsequence, etc. The next step would be to implement geometry related algorithms, such as Closest Pair, Extreme Points, and the Convex Hull Problem.</p>
                 <p>For details and source code, please view the <a href="https://github.com/allanpinkerton/algorithms-go">Github page</a> for this project.</p>
                 
                 <hr class="featurette-divider">
@@ -91,6 +91,12 @@
                 <p>
                     Criminal Intent is a toy app on Android that keeps track of "office crimes" and is the first non-trivial app that I worked on. I created it following the examples in Big Nerd Ranch's Android Programming book, and it is intended as a learning material and a playground for me to practice and familiarize with various features of the Anroid API such as fragments, photo taking, sending messages, etc. Not surprisingly, Helicon bears semblance to this app and inherits many of the design and patterns used in this app.
                 </p>
+                <hr class="featurette-divider">
+                <h2 id="unity">Space Shooter</h2>
+                <br />
+                <p>Space Shooter is a vertical scroller that I made using Unity. This progam is my main testing ground for Object Oriented Design Patterns. It utilizes the Decorator pattern to allow weapon upgrades for the user's ship. The AI for the enemy uses the Strategy pattern to allows the enemy to take on different moving patterns, based on the difficulty level, at runtime. From object to module, everything was written to maximize reusability.</p>
+                <p>The game features 3 different types of enemies, each with their unique method of attack, two distinct weapon upgrades, and a point system.<p>
+                
                 <hr class="featurette-divider">
             </div>
         </div>
